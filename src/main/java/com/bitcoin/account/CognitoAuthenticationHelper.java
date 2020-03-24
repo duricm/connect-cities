@@ -1,4 +1,4 @@
-package com.bitcoin.card;
+package com.bitcoin.account;
 
 import com.amazonaws.auth.AWSCredentials;
 
@@ -17,7 +17,7 @@ import com.amazonaws.services.cognitoidp.AWSCognitoIdentityProviderClientBuilder
 import com.amazonaws.services.cognitoidp.model.*;
 import com.amazonaws.util.Base64;
 import com.amazonaws.util.StringUtils;
-import com.bitcoin.card.error.UnauthorizedException;
+import com.bitcoin.account.error.UnauthorizedException;
 
 import javax.crypto.Mac;
 import javax.crypto.SecretKey;

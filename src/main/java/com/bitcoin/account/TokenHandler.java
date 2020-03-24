@@ -1,4 +1,4 @@
-package com.bitcoin.card;
+package com.bitcoin.account;
 
 import java.nio.charset.StandardCharsets;
 import java.security.InvalidKeyException;
@@ -13,14 +13,13 @@ import javax.crypto.spec.SecretKeySpec;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.bitcoin.card.error.UnauthorizedException;
+import com.bitcoin.account.error.UnauthorizedException;
 
 public class TokenHandler {
 	
 	private static boolean ENABLE_TOKEN_VALIDATION = true;
 	private static String badTokenMessage = "Bad token value";
 	
-    private BitcoinRestClient restClient = new BitcoinRestClient();
 	CognitoHelper helper = new CognitoHelper();
 
 	

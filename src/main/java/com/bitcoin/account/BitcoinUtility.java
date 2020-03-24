@@ -1,4 +1,4 @@
-package com.bitcoin.card;
+package com.bitcoin.account;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import com.bitcoin.card.error.UserNotFoundException;
+import com.bitcoin.account.error.UserNotFoundException;
 
 public class BitcoinUtility {
 	

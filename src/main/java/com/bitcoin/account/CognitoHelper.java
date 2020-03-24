@@ -1,4 +1,4 @@
-package com.bitcoin.card;
+package com.bitcoin.account;
 
 import com.amazonaws.auth.AWSCredentials;
 
@@ -23,7 +23,7 @@ import com.amazonaws.services.cognitoidp.model.*;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.Bucket;
-import com.bitcoin.card.error.BadRequestException;
+import com.bitcoin.account.error.BadRequestException;
 
 import org.apache.log4j.Logger;
 import org.json.JSONObject;

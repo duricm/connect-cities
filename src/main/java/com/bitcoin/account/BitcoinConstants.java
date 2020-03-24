@@ -1,4 +1,4 @@
-package com.bitcoin.card;
+package com.bitcoin.account;
 
 public class BitcoinConstants {
 	

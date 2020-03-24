@@ -1,4 +1,4 @@
-package com.bitcoin.card.error;
+package com.bitcoin.account.error;
 
 public class UnauthorizedException extends RuntimeException {
 
