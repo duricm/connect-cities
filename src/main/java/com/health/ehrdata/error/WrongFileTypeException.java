@@ -1,4 +1,4 @@
-package com.bitcoin.account.error;
+package com.health.ehrdata.error;
 
 public class WrongFileTypeException extends RuntimeException {
 

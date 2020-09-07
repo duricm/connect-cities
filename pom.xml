@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>bitcoin-account-api</artifactId>
+    <artifactId>health-data-api</artifactId>
     <packaging>jar</packaging>
-    <name>Bitcoin Account REST API</name>
+    <name>Health Data REST API</name>
     <version>1.0</version>
 
     <parent>
