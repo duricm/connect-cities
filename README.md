@@ -21,5 +21,7 @@ mvn test
 Some sample requests are:
 
 http://localhost:8080/connected?origin=Boston&destination=Newark 
+
 http://localhost:8080/connected?origin=Boston&destination=Philadelphia
+
 http://localhost:8080/connected?origin=Philadelphia&destination=Albany
