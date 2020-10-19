@@ -1,4 +1,4 @@
-package com.health.ehrdata.error;
+package com.connect.cities.error;
 
 public class WrongFileTypeException extends RuntimeException {
 

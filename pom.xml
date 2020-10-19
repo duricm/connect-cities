@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>health-data-api</artifactId>
+    <artifactId>connect-cities-api</artifactId>
     <packaging>jar</packaging>
-    <name>Health Data REST API</name>
+    <name>Connect Cities REST API</name>
     <version>1.0</version>
 
     <parent>
@@ -23,6 +23,14 @@
     </properties>
 
     <dependencies>
+    
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+</dependency>
+    
     
 	<dependency>
     	<groupId>com.amazonaws</groupId>

@@ -1,16 +1,16 @@
-package com.health.ehrdata;
+package com.connect.cities;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StartEHRHealthApplication {
+public class StartConnectCitiesApplication {
 	
     // start everything
     public static void main(String[] args) {
     	
-        SpringApplication.run(StartEHRHealthApplication.class, args);
+        SpringApplication.run(StartConnectCitiesApplication.class, args);
     }
 
 
