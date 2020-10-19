@@ -9,9 +9,11 @@ The possible path can also be indirect, meaning if city A connects to city B, an
 The file which contains city paris is cities.txt, located in /resources directory. 
 
 To compile the application please execute:
+
 mvn clean install
 
 To run the application please execute:
+
 mvn spring-boot:run
 
 To run all tests please execute:
